@@ -7,5 +7,7 @@
  *     */
 int main(void)
 {
-	    return (0);
+puts("hello,world");
+
+    return (0);
 }
