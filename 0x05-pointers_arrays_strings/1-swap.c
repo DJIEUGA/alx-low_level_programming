@@ -2,8 +2,8 @@
 
 /**
  * swap_int - swap the value of two integers.
- * @a - Integer param.
- * @b - Integer param.
+ * @b: Integer param.
+ * @a: Integer param.
  * Return : void (Nothing).
  */
 void swap_int(int *a, int *b)
