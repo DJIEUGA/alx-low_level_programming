@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include <string.h>
 
 /**
  * print_rev - Print string in reverse order.
@@ -10,5 +9,11 @@
 
 void print_rev(char *s)
 {
-	strrev(s);
+	if (*s)
+	{
+		print_rev(*s + 1);
+		printf("%c", *s);
+	}
+
+	printf("%\n");
 }
