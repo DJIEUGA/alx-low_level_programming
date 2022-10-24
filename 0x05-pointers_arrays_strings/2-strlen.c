@@ -7,8 +7,10 @@
  * @s: String param.
  * Return: Integer (string length).
  */
+
 int _strlen(char *s)
 {
 	int len = strlen(s);
+
 	return (len);
 }
